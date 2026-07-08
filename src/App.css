@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+.card-img-wrapper {
+  background-color: #f0f0f0;  /* серый фон */
+  padding: 10px;              /* отступ вокруг картинки */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100px;
+}
+
+.card-img-wrapper img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;            /* чтобы не выходила за пределы wrapper */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
