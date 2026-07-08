@@ -14,7 +14,7 @@ function App() {
             <CardBody>
               <CardTitle>Заголовок карточки</CardTitle>
               <CardText>Это пример текста карточки. Здесь можно разместить описание.</CardText>
-              <button href="#" className="btn btn-primary">Перейти</a>
+              <button href="#" className="btn btn-primary">Перейти</button>
             </CardBody>
           </Card>
         </div>
@@ -25,7 +25,7 @@ function App() {
             <CardBody>
               <CardTitle>Текстовая карточка</CardTitle>
               <CardText>Пример карточки без изображения, содержащей только текстовое содержимое.</CardText>
-              <button href="#" className="btn btn-outline-primary">Подробнее</a>
+              <button href="#" className="btn btn-outline-primary">Подробнее</button>
             </CardBody>
           </Card>
         </div>
@@ -37,7 +37,7 @@ function App() {
             <CardBody>
               <CardTitle>Особая карточка</CardTitle>
               <CardText>Карточка с заголовком и нижним колонтитулом.</CardText>
-              <button href="#" className="btn btn-outline-primary">Действие</a>
+              <button href="#" className="btn btn-outline-primary">Действие</button>
             </CardBody>
             <CardFooter>2 дня назад</CardFooter>
           </Card>
@@ -49,7 +49,7 @@ function App() {
             <CardBody>
               <CardTitle>Цветная карточка</CardTitle>
               <CardText>Пример карточки с цветным фоном и белым текстом.</CardText>
-              <button href="#" className="btn btn-light">Действие</a>
+              <button href="#" className="btn btn-light">Действие</button>
             </CardBody>
           </Card>
         </div>
